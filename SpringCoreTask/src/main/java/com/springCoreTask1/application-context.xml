@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<!-- <bean id="employee1" class="com.springCoreTask1.Employee">
+		<property name="employeeId" value="101" />
+		<property name="employeeName" value="Rohit Sharma" />
+		<property name="employeeSalary" value="25000.00"></property>
+	</bean>
+
+	<bean id="employee2" class="com.springCoreTask1.Employee">
+		<constructor-arg value="102" />
+		<constructor-arg value="Virat Kohli" />
+		<constructor-arg value="30000.00" />
+	</bean> -->
+
+	<!-- <bean id="student1" class="com.springCoreTask1.Student">
+		<property name="rollNumber" value="21" />
+		<property name="studentName" value="Ankit Rathor" />
+		<property name="course" value="Computer Science"></property>
+	</bean> -->
+	
+	<!-- <bean id="book1" class="com.springCoreTask1.Book">
+		<property name="bookId" value="1001" />
+		<property name="bookName" value="Harry Potter" />
+		<property name="authorName" value="JK Rolin"/>
+		<property name="price" value="999"/>
+	</bean>
+	
+	<bean id="book2" class="com.springCoreTask1.Book">
+		<constructor-arg name="bookId" value="1002" />
+		<constructor-arg name="bookName" value="Game Of Throns" />
+		<constructor-arg name="authorName" value="George R. R. Martin"/>
+		<constructor-arg name="price" value="2999"/>
+	</bean> -->
+	
+	<bean id="motor1" class="com.springCoreTask1.Motor">
+		<property name="motorId" value="101"/>
+		<property name="motorType" value="Battery"/>
+	</bean>
+	
+	<bean id="toyCar1" class="com.springCoreTask1.ToyCar">
+		<property name="toyCarId" value="1001"/>
+		<property name="toyCarBrand" value="MatchBox"/>
+		<property name="motor" ref="motor1"/>
+	</bean>
+	
+	<bean id="motor2" class="com.springCoreTask1.Motor">
+		<constructor-arg value="102"/>
+		<constructor-arg value="Patrol"/>
+	</bean>
+	
+	<bean id="toyCar2" class="com.springCoreTask1.ToyCar">
+		<constructor-arg value="1002"/>
+		<constructor-arg value="Hot Wheal"/>
+		<constructor-arg ref="motor2"/>
+	</bean>
+</beans>

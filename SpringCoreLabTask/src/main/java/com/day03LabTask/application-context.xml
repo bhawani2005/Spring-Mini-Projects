@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<!-- <bean id="bankCustomer1" class="com.day03LabTask.BankCustomer">
+		<constructor-arg value="101"/>
+		<constructor-arg value="Jiten Kumar"/>
+		
+		<property name="accountType" value="Saving"/>
+		<property name="branchName" value="Baharagora"/>
+		
+	</bean>
+	
+	<bean id="doctor1" class="com.day03LabTask.Doctor">
+		<constructor-arg value="1001"/>
+		<constructor-arg value="Dr. Isha"/>
+		
+		<property name="specialization" value="Madicine"/>
+		<property name="hospitalName" value="Appolo"/>
+	</bean> 
+	
+	<bean id="product1" class="com.day03LabTask.Product">
+		<constructor-arg value="501" />
+		<constructor-arg value="Book"/>
+		
+		<property name="category" value="item"/>
+		<property name="price" value="50.00"/>
+		<property name="brand" value="Classmate"/>	
+		
+	</bean>
+
+	<bean id="student1" class="com.day03LabTask.Student">
+		<constructor-arg value="201"/>
+		<constructor-arg value="Karan Roy"/>
+		
+		<property name="course" value="Java FullStack"/>
+		<property name="universityName" value="Sandford"/>
+		<property name="city" value="Callifornia"/>
+		
+	</bean>  -->
+ 
+	<bean id="movieBooking1" class="com.day03LabTask.MovieBooking">
+		<constructor-arg value="101"/>
+		<constructor-arg value="Ironman2"/>
+		
+		<property name="theaterName" value="IMAX"/>
+		<property name="seatNumber" value="25"/>
+		<property name="showTime" value="4"/>
+	</bean>
+
+
+
+</beans>

@@ -1,0 +1,2 @@
+notification:
+ msg: Notification send from production env.

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<bean id="student" class="com.day11.springcore.Student">
+		<!-- <property name="name" value="Sudip" />
+		<property name="id" value="101" />
+		<property name="address" value="HYD" /> -->
+		
+		<constructor-arg value="Sudip"/>
+		<constructor-arg value="101"/>
+		<constructor-arg value="HYD"/>
+	</bean>
+
+	<bean id="university" class="com.day11.springcore.University">
+		<!-- <property name="universityName" value="xyz" />
+		<property name="universityCode" value="123" />
+		<property name="universityAddress" value="Dhanbad" />
+		<property name="student" ref="student" /> -->
+		
+		<constructor-arg value="XYZ"/>
+		<constructor-arg value="123"/>
+		<constructor-arg value="Dhanbad"/>
+		<constructor-arg ref="student"/>
+	</bean>
+</beans>

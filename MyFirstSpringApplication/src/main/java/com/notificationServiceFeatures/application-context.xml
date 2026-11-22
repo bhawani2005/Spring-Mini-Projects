@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<bean id="service"
+		class="com.notificationServiceFeatures.NotificationService">
+		<property name="notificationTypeService">
+			<list>
+				<value>WhatsApp</value>
+				<value>SMS</value>
+				<value>Email</value>
+			</list>
+		</property>
+
+		<property name="serviceRegions">
+			<set>
+				<value>India</value>
+				<value>UK</value>
+				<value>Japan</value>
+			</set>
+		</property>
+
+		<property name="notificationProvider">
+			<map>
+				<entry key="WhatsApp" value="WhatsApp API" />
+				<entry key="SMS" value="Twilio" />
+				<entry key="Email" value="Email SMTP" />
+			</map>
+		</property>
+
+		<property name="basicConfigProperties">
+			<props>
+				<prop key="WhatsApp">notification-enable=true</prop>
+				<prop key="SMS">3sec</prop>
+				<prop key="Email">Draft</prop>
+			</props>
+		</property>
+	</bean>
+</beans>

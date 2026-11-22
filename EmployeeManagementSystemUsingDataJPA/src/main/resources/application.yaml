@@ -1,0 +1,20 @@
+spring:
+ application:
+  name: EmployeeManagementSystemUsingDataJPA
+
+ datasource:
+  url: jdbc:oracle:thin:@localhost:1521:FREE
+  driver-class-name: oracle.jdbc.OracleDriver
+  username: SHANKAR
+  password: BHAWANI
+
+ jpa:
+  hibernate:
+   ddl-auto: update
+
+  show-sql: true
+
+  properties:
+   hibernate:
+    format_sql: true
+        

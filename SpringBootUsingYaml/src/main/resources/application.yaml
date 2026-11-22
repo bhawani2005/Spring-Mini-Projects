@@ -1,0 +1,65 @@
+company:
+ companyName: Tech Solution
+ employeeCount: 150
+ annualRevenue: 2500000.0
+ active: true
+ branchCode: H
+ 
+ employeeNames:
+  - Rahul
+  - Amit
+  - Priya
+  - Sneha
+ 
+ employeeDepartments:
+  101 : java
+  102 : Python
+  103 : Testing
+
+ uniqueSkills:
+  -Java
+  -SpringBoot
+  -Microservice
+
+ companyAddress:
+  city: Hyderabad
+  state: Telangana
+  country: India
+
+ locations:
+  - Hyderabad
+  - Bangalore
+  - Pune	
+
+hospital:
+ hospitalName: TMH Jamshedpur
+ totalBeds: 10000
+ consultationFee: 1000
+ emergencyAvailable: true 
+ hospitalCode: T
+ 
+ doctorNames: 
+  - Aasutosh
+  - Pawan Kumar
+  - Lokesh Pradhan
+  - Rupali Singh
+  - Mangal Kumar
+
+ departmentHeads:
+  Cardiology: Dr. Sharma
+  Neurology: Dr. Verma
+
+ availableFacilities:
+  - ICU
+  - Pharmacy
+  - Ambulance
+  - Laboratory
+
+ hospitalAddress:
+  city: Jamshadpur
+  state: Jharkhand
+  pincode: 831001
+
+ branchLocations:
+  - Jamshadpur
+  - Mumbai

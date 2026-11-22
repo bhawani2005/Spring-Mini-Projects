@@ -1,0 +1,23 @@
+# Eclipse workspace
+.metadata/
+
+# Java compiled files
+*.class
+
+# Maven build output
+target/
+
+# Eclipse settings
+.settings/
+.project
+.classpath
+
+# IntelliJ
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# Environment files
+.env

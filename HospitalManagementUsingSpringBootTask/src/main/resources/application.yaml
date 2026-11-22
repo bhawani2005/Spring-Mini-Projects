@@ -1,0 +1,16 @@
+spring:
+ application:
+  name: HospitalManagementUsingSpringBootTask
+
+  
+hospital:
+ hospitalName: YASHODA
+ listOfTreatement: 
+ - cardiac
+ - ENT
+ - Ortho
+ - Pediatric
+ - Gastro
+ contactPerson: Mathews
+ contactNumber: 9865742358
+ location: Hyderabad

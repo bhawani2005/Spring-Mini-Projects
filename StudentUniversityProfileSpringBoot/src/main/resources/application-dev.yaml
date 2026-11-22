@@ -1,0 +1,23 @@
+student:
+ name: Rahul
+ id: 101
+ branch: Computer Science
+ subject: 
+  - COA
+  - DAA
+  - Java Programming
+  - DSA
+  - DBMS
+ marks: 
+  - 85
+  - 74
+  - 60
+  - 95
+  - 68
+ isAdmmision: 
+  true
+
+university:
+ name: BPUT
+ address: Raulkela
+ id: 58746

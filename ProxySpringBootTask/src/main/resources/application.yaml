@@ -1,0 +1,6 @@
+spring:
+ application:
+  name: ProxySpringBootTask
+
+bankdetails: 
+ balance: 500
